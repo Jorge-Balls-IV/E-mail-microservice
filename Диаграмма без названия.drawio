@@ -5,32 +5,13 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="22" value="&lt;p style=&quot;margin: 0px; margin-top: 4px; text-align: center; text-decoration: underline;&quot;&gt;MailFunctions.h&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;void envReader(string&amp;amp;);&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" parent="1" vertex="1">
-          <mxGeometry x="889.9999999999999" y="380" width="160.0000000000001" height="180" as="geometry" />
-        </mxCell>
-        <mxCell id="5tQPLrEr_7pmEAGz7JeY-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="23">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="940" y="80" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="23" value="&lt;p style=&quot;margin: 0px; margin-top: 4px; text-align: center; text-decoration: underline;&quot;&gt;&lt;strong&gt;UserProjectRole&lt;/strong&gt;&lt;/p&gt;&lt;hr /&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;IdUserProjectRole&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;IdRole&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;IdProject&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;IdUser&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" parent="1" vertex="1">
-          <mxGeometry x="880.0000000000005" y="90.00000000000058" width="160" height="100" as="geometry" />
+          <mxGeometry x="849.9999999999999" y="170" width="160.0000000000001" height="180" as="geometry" />
         </mxCell>
         <mxCell id="24" value="&lt;p style=&quot;margin: 4px 0px 0px; text-decoration: underline;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-decoration: underline;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-decoration: underline;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-decoration: underline;&quot;&gt;RabbitMQ&lt;/p&gt;" style="verticalAlign=top;align=center;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" parent="1" vertex="1">
           <mxGeometry x="120.00000000000023" y="395.00000000000057" width="160" height="150" as="geometry" />
         </mxCell>
         <mxCell id="29" value="&lt;p style=&quot;margin: 0px; margin-top: 4px; text-align: center; text-decoration: underline;&quot;&gt;&lt;b&gt;MailProject.cpp&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;Основной файл&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;Содержит main()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" parent="1" vertex="1">
           <mxGeometry x="590.0000000000002" y="370.0000000000007" width="160" height="200" as="geometry" />
-        </mxCell>
-        <mxCell id="45" value="" style="endArrow=open;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;rounded=0" parent="1" source="22" target="23" edge="1">
-          <mxGeometry x="519.3599999999999" y="180" as="geometry">
-            <mxPoint x="679.3599999999999" y="180" as="sourcePoint" />
-            <mxPoint x="519.3599999999999" y="180" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="47" value="1" style="resizable=0;align=right;verticalAlign=top;labelBackgroundColor=#ffffff;fontSize=10;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" parent="45" connectable="0" vertex="1">
-          <mxGeometry x="1" relative="1" as="geometry">
-            <mxPoint x="-550" y="-159.99999999999997" as="offset" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="48" value="" style="endArrow=open;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;rounded=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="22" target="29" edge="1">
           <mxGeometry x="769.3599999999999" y="450" as="geometry">
@@ -80,7 +61,7 @@
           <mxGeometry x="378" y="440" width="70" height="40" as="geometry" />
         </mxCell>
         <mxCell id="5tQPLrEr_7pmEAGz7JeY-122" value="&lt;p style=&quot;margin: 0px; margin-top: 4px; text-align: center; text-decoration: underline;&quot;&gt;MyFunctions.h&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;void envReader(string&amp;amp;);&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" vertex="1" parent="1">
-          <mxGeometry x="1180" y="420" width="160.0000000000001" height="180" as="geometry" />
+          <mxGeometry x="1100" y="30" width="160.0000000000001" height="180" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
