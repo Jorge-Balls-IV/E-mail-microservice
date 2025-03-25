@@ -1,0 +1,115 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0 (Edition Yx 05)" scale="1" border="0" version="26.1.1">
+  <diagram name="Страница — 1" id="E7v-GTzRXnYgEKMbvD0S">
+    <mxGraphModel dx="1507" dy="1955" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="z5Z4VDHnnIjFjv3NGnk5-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="z5Z4VDHnnIjFjv3NGnk5-2" target="z5Z4VDHnnIjFjv3NGnk5-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1011.9200000000001" y="228.00000000000068" as="targetPoint" />
+            <mxPoint x="799.9999999999998" y="100" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z5Z4VDHnnIjFjv3NGnk5-2" value="&lt;p style=&quot;margin: 0px; margin-top: 4px; text-align: center; text-decoration: underline;&quot;&gt;void loadEnvFromFile(const string&amp;amp;)&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;Считывание данных из&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;.env файла, установка&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;переменных окружения.&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" parent="1" vertex="1">
+          <mxGeometry x="550" y="-100" width="250" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="S5xiMd7cjPqKOFFZwjy--3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="z5Z4VDHnnIjFjv3NGnk5-3" target="z5Z4VDHnnIjFjv3NGnk5-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z5Z4VDHnnIjFjv3NGnk5-3" value="&lt;p style=&quot;margin: 4px 0px 0px; text-decoration: underline;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-decoration: underline;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-decoration: underline;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-decoration: underline;&quot;&gt;RabbitMQ&lt;/p&gt;" style="verticalAlign=top;align=center;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" parent="1" vertex="1">
+          <mxGeometry x="550" y="730.0000000000006" width="160" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="z5Z4VDHnnIjFjv3NGnk5-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="z5Z4VDHnnIjFjv3NGnk5-5" target="S5xiMd7cjPqKOFFZwjy--7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z5Z4VDHnnIjFjv3NGnk5-5" value="&lt;p style=&quot;margin: 0px; margin-top: 4px; text-align: center; text-decoration: underline;&quot;&gt;&lt;b&gt;string receiveMessage(const string&amp;amp; data_string)&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;text-align: center; margin: 0px 0px 0px 8px;&quot;&gt;Получение сообщения из RabbitMQ&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" parent="1" vertex="1">
+          <mxGeometry x="882.5" y="705" width="315" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="z5Z4VDHnnIjFjv3NGnk5-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="z5Z4VDHnnIjFjv3NGnk5-10" target="z5Z4VDHnnIjFjv3NGnk5-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z5Z4VDHnnIjFjv3NGnk5-10" value="&lt;p style=&quot;margin: 0px; margin-top: 4px; text-align: center; text-decoration: underline;&quot;&gt;Config* getConfig(const string&amp;amp; path)&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;text-align: center; margin: 0px 0px 0px 8px;&quot;&gt;Загружает env-переменные и&lt;/p&gt;&lt;p style=&quot;text-align: center; margin: 0px 0px 0px 8px;&quot;&gt;кладет их в структуру&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" parent="1" vertex="1">
+          <mxGeometry x="929.9999999999998" y="-100" width="220" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="S5xiMd7cjPqKOFFZwjy--5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="z5Z4VDHnnIjFjv3NGnk5-13" target="S5xiMd7cjPqKOFFZwjy--4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z5Z4VDHnnIjFjv3NGnk5-13" value="&lt;p style=&quot;margin: 0px; margin-top: 4px; text-align: center; text-decoration: underline;&quot;&gt;int main()&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;Подгружать конфиг&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;Запускать Listener&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" parent="1" vertex="1">
+          <mxGeometry x="959.9999999999998" y="170" width="160.0000000000001" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="z5Z4VDHnnIjFjv3NGnk5-15" value="&lt;p style=&quot;margin: 0px; margin-top: 4px; text-align: center; text-decoration: underline;&quot;&gt;bool isDuplicate(MsgData&amp;nbsp;data)&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;text-align: center; margin: 0px 0px 0px 8px;&quot;&gt;Проверка на то, является&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;text-align: center; margin: 0px 0px 0px 8px;&quot;&gt;ли сообщение дубликатом&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" parent="1" vertex="1">
+          <mxGeometry x="1319.9999999999998" y="1000" width="310" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="z5Z4VDHnnIjFjv3NGnk5-17" value="&lt;p style=&quot;margin: 0px; margin-top: 4px; text-align: center; text-decoration: underline;&quot;&gt;std::cout&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;text-align: center; margin: 0px 0px 0px 8px;&quot;&gt;Логи отправляем сюда&lt;/p&gt;&lt;p style=&quot;text-align: center; margin: 0px 0px 0px 8px;&quot;&gt;функцией void log(const string&amp;amp; level, const string&amp;amp; message)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" parent="1" vertex="1">
+          <mxGeometry x="1284.9999999999998" y="-100" width="380" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="S5xiMd7cjPqKOFFZwjy--2" value="Конфигурация вся в ENV" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="840" y="-90" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="S5xiMd7cjPqKOFFZwjy--6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="S5xiMd7cjPqKOFFZwjy--4" target="z5Z4VDHnnIjFjv3NGnk5-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S5xiMd7cjPqKOFFZwjy--4" value="&lt;p style=&quot;margin: 0px; margin-top: 4px; text-align: center; text-decoration: underline;&quot;&gt;void startReceivingMessages()&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;Запускает while true&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" vertex="1" parent="1">
+          <mxGeometry x="930" y="445" width="220" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="S5xiMd7cjPqKOFFZwjy--10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="S5xiMd7cjPqKOFFZwjy--7" target="S5xiMd7cjPqKOFFZwjy--9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1475" y="960" />
+              <mxPoint x="1115" y="960" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S5xiMd7cjPqKOFFZwjy--12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="S5xiMd7cjPqKOFFZwjy--7" target="z5Z4VDHnnIjFjv3NGnk5-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S5xiMd7cjPqKOFFZwjy--15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="S5xiMd7cjPqKOFFZwjy--7" target="S5xiMd7cjPqKOFFZwjy--14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1475" y="960" />
+              <mxPoint x="1825" y="960" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S5xiMd7cjPqKOFFZwjy--22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="S5xiMd7cjPqKOFFZwjy--7" target="S5xiMd7cjPqKOFFZwjy--21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S5xiMd7cjPqKOFFZwjy--7" value="&lt;p style=&quot;margin: 0px; margin-top: 4px; text-align: center; text-decoration: underline;&quot;&gt;&lt;b&gt;MsgData proceedMessage(const string&amp;amp; data)&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;text-align: center; margin: 0px 0px 0px 8px;&quot;&gt;Парсим JSON-строку в&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;text-align: center; margin: 0px 0px 0px 8px;&quot;&gt;структуру MsgData, опре-&lt;/p&gt;&lt;p style=&quot;text-align: center; margin: 0px 0px 0px 8px;&quot;&gt;деленную в отдельном .h&lt;/p&gt;&lt;p style=&quot;text-align: center; margin: 0px 0px 0px 8px;&quot;&gt;файле&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" vertex="1" parent="1">
+          <mxGeometry x="1329.9999999999998" y="705" width="290" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="S5xiMd7cjPqKOFFZwjy--9" value="&lt;p style=&quot;margin: 0px; margin-top: 4px; text-align: center; text-decoration: underline;&quot;&gt;MsgData parseJson(&lt;b&gt;const string&amp;amp; data&lt;/b&gt;)&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;text-align: center; margin: 0px 0px 0px 8px;&quot;&gt;Десериализация JSON&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" vertex="1" parent="1">
+          <mxGeometry x="959.9999999999998" y="1000" width="310" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="S5xiMd7cjPqKOFFZwjy--14" value="&lt;p style=&quot;margin: 0px; margin-top: 4px; text-align: center; text-decoration: underline;&quot;&gt;void loadToDb(MsgData&amp;nbsp;data)&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;text-align: center; margin: 0px 0px 0px 8px;&quot;&gt;Загрузка в БД&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" vertex="1" parent="1">
+          <mxGeometry x="1669.9999999999998" y="1000" width="310" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="S5xiMd7cjPqKOFFZwjy--16" value="SQLite3" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="1565" y="1290" width="175" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="S5xiMd7cjPqKOFFZwjy--17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="S5xiMd7cjPqKOFFZwjy--14" target="S5xiMd7cjPqKOFFZwjy--16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S5xiMd7cjPqKOFFZwjy--18" value="INSERT-запрос" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1830" y="1200" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="S5xiMd7cjPqKOFFZwjy--19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="z5Z4VDHnnIjFjv3NGnk5-15" target="S5xiMd7cjPqKOFFZwjy--16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S5xiMd7cjPqKOFFZwjy--20" value="SELECT-запрос" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="1200" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="S5xiMd7cjPqKOFFZwjy--23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="S5xiMd7cjPqKOFFZwjy--21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2140" y="805" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S5xiMd7cjPqKOFFZwjy--21" value="&lt;p style=&quot;margin: 0px; margin-top: 4px; text-align: center; text-decoration: underline;&quot;&gt;&lt;b&gt;void&amp;nbsp;&lt;/b&gt;SMTP_send&lt;b&gt;(&lt;/b&gt;&lt;b&gt;MsgData&amp;nbsp;data&lt;/b&gt;&lt;b&gt;)&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;text-align: center; margin: 0px 0px 0px 8px;&quot;&gt;Отправляет письмо с помощью SMTP-сервера&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" vertex="1" parent="1">
+          <mxGeometry x="1739.9999999999998" y="705" width="290" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="S5xiMd7cjPqKOFFZwjy--24" value="SMTP" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="2140" y="765" width="80" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
